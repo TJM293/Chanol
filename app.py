@@ -10,7 +10,7 @@ import requests
 app = Flask(__name__)
 
 # === НАСТРОЙКИ ===
-OLLAMA_API_KEY = "0c2b3de58368485d896dad250ba7ae85.p5rz8Ekuqal6ihaBsetUXdbK"
+OLLAMA_API_KEY = "ваш ключ"
 OLLAMA_URL = "https://ollama.com/v1/chat/completions"
 MODEL = "qwen3-coder:480b"
 TIMEOUT = 180
